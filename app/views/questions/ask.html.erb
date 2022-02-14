@@ -1,0 +1,7 @@
+<p>Ask question to your coach!</p>
+<form action="/answer" method="get">
+  <input type="text" name="query" placeholder="Ask your coach something?" value="<%= params[:query] %>"
+>
+  <input type="submit">
+</form>
+<%= link_to "Go back", home_path %>
